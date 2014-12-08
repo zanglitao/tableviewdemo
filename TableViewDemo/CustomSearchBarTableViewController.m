@@ -18,7 +18,6 @@
     UISearchDisplayController *_searchController;
     UISearchBar *_searchBar;
 }
-
 @end
 
 @implementation CustomSearchBarTableViewController

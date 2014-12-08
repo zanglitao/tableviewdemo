@@ -14,5 +14,4 @@
 @property(nonatomic,strong)NSString *phone;
 
 -(id)initWithName:(NSString *)name Phone:(NSString *)phone;
-
 @end

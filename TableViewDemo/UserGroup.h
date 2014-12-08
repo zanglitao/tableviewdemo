@@ -15,5 +15,4 @@
 @property(nonatomic,strong)NSString *groupIntro;
 
 -(id)initWithEntities:(NSArray *)entities GroupIdentifier:(NSString *)groupIdentifier GroupIntro:(NSString *)groupIntro;
-
 @end

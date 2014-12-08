@@ -19,6 +19,7 @@
     return self;
 }
 
+
 -(void)setContent:(NSDictionary *)dic {
     NSString *label1 = dic[@"label1"];
     NSString *lable2 = dic[@"label2"];
@@ -30,16 +31,5 @@
     _label2.text = lable2;
 }
 
-- (void)awakeFromNib
-{
-    // Initialization code
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
 
 @end

@@ -16,8 +16,8 @@
         self.userEntities = entities;
         self.groupIdentifier = groupIdentifier;
         self.groupIntro = groupIntro;
+    
     }
     return self;
 }
-
 @end
