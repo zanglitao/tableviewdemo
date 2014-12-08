@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443B43721A35C81B00F485F0 /* CustomSearchBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443B43711A35C81B00F485F0 /* CustomSearchBarTableViewController.m */; };
 		44493A491A31DD880081A3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44493A481A31DD880081A3EF /* Foundation.framework */; };
 		44493A4B1A31DD880081A3EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44493A4A1A31DD880081A3EF /* CoreGraphics.framework */; };
 		44493A4D1A31DD880081A3EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44493A4C1A31DD880081A3EF /* UIKit.framework */; };
@@ -21,6 +22,11 @@
 		44493A6A1A31DD890081A3EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44493A4C1A31DD880081A3EF /* UIKit.framework */; };
 		44493A721A31DD890081A3EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44493A701A31DD890081A3EF /* InfoPlist.strings */; };
 		44493A741A31DD890081A3EF /* TableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A731A31DD890081A3EF /* TableViewDemoTests.m */; };
+		44493A7F1A31DE940081A3EF /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A7E1A31DE940081A3EF /* UserEntity.m */; };
+		44493A821A31DEAA0081A3EF /* UserGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A811A31DEAA0081A3EF /* UserGroup.m */; };
+		44493A851A3485E20081A3EF /* CustomTableCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A841A3485E20081A3EF /* CustomTableCellController.m */; };
+		44493A881A3486100081A3EF /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A871A3486100081A3EF /* CustomTableCell.m */; };
+		44493A8B1A3492AB0081A3EF /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44493A8A1A3492AB0081A3EF /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		443B43701A35C81A00F485F0 /* CustomSearchBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchBarTableViewController.h; sourceTree = "<group>"; };
+		443B43711A35C81B00F485F0 /* CustomSearchBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBarTableViewController.m; sourceTree = "<group>"; };
 		44493A451A31DD880081A3EF /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44493A481A31DD880081A3EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44493A4A1A31DD880081A3EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,16 @@
 		44493A6F1A31DD890081A3EF /* TableViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		44493A711A31DD890081A3EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44493A731A31DD890081A3EF /* TableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoTests.m; sourceTree = "<group>"; };
+		44493A7D1A31DE940081A3EF /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
+		44493A7E1A31DE940081A3EF /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
+		44493A801A31DEAA0081A3EF /* UserGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGroup.h; sourceTree = "<group>"; };
+		44493A811A31DEAA0081A3EF /* UserGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGroup.m; sourceTree = "<group>"; };
+		44493A831A3485E20081A3EF /* CustomTableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCellController.h; sourceTree = "<group>"; };
+		44493A841A3485E20081A3EF /* CustomTableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCellController.m; sourceTree = "<group>"; };
+		44493A861A3486100081A3EF /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		44493A871A3486100081A3EF /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		44493A891A3492AB0081A3EF /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		44493A8A1A3492AB0081A3EF /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +137,18 @@
 				44493A5E1A31DD890081A3EF /* ZLTViewController.m */,
 				44493A601A31DD890081A3EF /* Images.xcassets */,
 				44493A4F1A31DD880081A3EF /* Supporting Files */,
+				44493A7D1A31DE940081A3EF /* UserEntity.h */,
+				44493A7E1A31DE940081A3EF /* UserEntity.m */,
+				44493A801A31DEAA0081A3EF /* UserGroup.h */,
+				44493A811A31DEAA0081A3EF /* UserGroup.m */,
+				44493A831A3485E20081A3EF /* CustomTableCellController.h */,
+				44493A841A3485E20081A3EF /* CustomTableCellController.m */,
+				44493A861A3486100081A3EF /* CustomTableCell.h */,
+				44493A871A3486100081A3EF /* CustomTableCell.m */,
+				44493A891A3492AB0081A3EF /* CustomTableViewController.h */,
+				44493A8A1A3492AB0081A3EF /* CustomTableViewController.m */,
+				443B43701A35C81A00F485F0 /* CustomSearchBarTableViewController.h */,
+				443B43711A35C81B00F485F0 /* CustomSearchBarTableViewController.m */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -250,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44493A8B1A3492AB0081A3EF /* CustomTableViewController.m in Sources */,
 				44493A5F1A31DD890081A3EF /* ZLTViewController.m in Sources */,
 				44493A551A31DD890081A3EF /* main.m in Sources */,
+				44493A881A3486100081A3EF /* CustomTableCell.m in Sources */,
 				44493A591A31DD890081A3EF /* ZLTAppDelegate.m in Sources */,
+				443B43721A35C81B00F485F0 /* CustomSearchBarTableViewController.m in Sources */,
+				44493A7F1A31DE940081A3EF /* UserEntity.m in Sources */,
+				44493A821A31DEAA0081A3EF /* UserGroup.m in Sources */,
+				44493A851A3485E20081A3EF /* CustomTableCellController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +493,7 @@
 				44493A791A31DD890081A3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44493A7A1A31DD890081A3EF /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +502,7 @@
 				44493A7C1A31DD890081A3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
